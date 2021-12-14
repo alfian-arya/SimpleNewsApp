@@ -1,55 +1,47 @@
 # Identitas
 Nama : Alfian Arya
+
 NIM : D121191078
 
-# News App 
-News application using the API from https://newsapi.org/
-API News Is JSON API for live news and blog articles from the media.
-News Feed is a simple  that gives you latest and best news from multiple sources so you no longer need to swap between apps to stay informed.
-# Architecture
-I choose to use MVVM (Model-View-ViewModel) as my project architecture in order to provide a cleaner code, with clear separation between the view, the data and the business logic.
-The following diagram shows all the modules and how each module interact with one another after. This architecture using a layered software architecture.
-![68747470733a2f2f646576656c6f7065722e616e64726f69642e636f6d2f746f7069632f6c69627261726965732f6172636869746563747572652f696d616765732f66696e616c2d6172636869746563747572652e706e67](https://user-images.githubusercontent.com/55722619/81968739-a8bec700-95d1-11ea-8682-48fe879c25ff.png)
+Kelas : Pemrograman Mobile Kelas C
 
+# Simple News App 
+App ini merupakan sebuah app yang dimana menampilkan Berita terkini Melalui sebuah Application Programing Interface (API) melalui https://newsapi.org/ yang merupakan sebuah API yang memiliki konten terhadap Berita terkini dan beberapa blog artikel media lainnya.
 
-#  Note
-* the default and updated branch is dagger/hilt  and koin branch not updated 
+# Arsitektur App
 
+Pada App ini saya menggunakan Arsitektur MVVM (Model-View-ViewModel) karena arsitektur ini kode program kita lebih bersih dan rapi yang memisahkan antara fragment/activity, class, serta view layernya.Berikut ini merupakan diagram dari arsitektur MVVM (Model-View-ViewModel):
+![mvvm_achitecture](https://user-images.githubusercontent.com/62926316/145941659-2f0e7bec-c447-47ba-ae21-bc167d4f315f.png)
 
+# Preview App
+* Splash Halaman Utama
+![1_SimpleNewsApp](https://user-images.githubusercontent.com/62926316/145938689-4cca14c8-59b6-480b-94eb-6496412b4355.jpg)
 
-# Built With 🛠
-* [Kotlin](https://kotlinlang.org/) - official programming language for Android development .
-* [Coroutines](https://kotlinlang.org/docs/reference/coroutines-overview.html) - for asynchronous programming .
-* [Android Architecture Components](https://developer.android.com/topic/libraries/architecture) - Collection of libraries that help you design robust, testable, and maintainable apps.
-  - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata) - Data objects that notify views when the underlying database changes.
-  - [ViewModel](https://developer.android.com/topic/libraries/architecture/viewmodel) - Stores UI-related data that isn't destroyed on UI changes. 
-  - [Room](https://developer.android.com/topic/libraries/architecture/room) - Access your app's SQLite database with in-app objects and compile-time checks.
-  - [Navigation](https://developer.android.com/guide/navigation) - 
-* [dagger-hilt](https://dagger.dev/hilt/) - Dependency Injection Framework (Kotlin).
-* [Retrofit](https://square.github.io/retrofit/) - A type-safe HTTP client for Android and Java.
-* [Fragment](https://developer.android.com/guide/components/fragments)
-* [Glide](https://bumptech.github.io/glide/) for image loading
-* [pretty time ](https://www.ocpsoft.org/prettytime/) - format time 
+* Menu Home Explore
+![2_SimpleNewsApp](https://user-images.githubusercontent.com/62926316/145938818-772f3438-524f-4364-9cef-033dd7f62df4.jpg)
+ note : fitur Live Chat, Gallery, dan E-Magazine Masih dalam tahap pengembangan
 
+![3_SimpleNewsApp](https://user-images.githubusercontent.com/62926316/145939057-1a8cf31e-0dba-4cd0-ada3-76ecf0fd88a0.jpg)
 
+* Fitur Search
+![4_SimpleNewsApp](https://user-images.githubusercontent.com/62926316/145939172-52c8c2f7-bf54-47d9-83ab-520c949288a7.jpg)
 
-# screens of the app
-* Splash
-![Screenshot_20200515-202418 1](https://user-images.githubusercontent.com/55722619/82084068-957a2d00-969f-11ea-9e06-569f1928f568.png)
-* Home from api
-![Screenshot_20200515-202423 1](https://user-images.githubusercontent.com/55722619/82084228-d1ad8d80-969f-11ea-9eb5-eb566068c229.png)
-* Home Cached from api using room
-![Screenshot_20200515-202114 1](https://user-images.githubusercontent.com/55722619/82084328-fd307800-969f-11ea-8c5c-948c05c4d7e1.png)
+* Menu News Details
+![5_SimpleNewsApp](https://user-images.githubusercontent.com/62926316/145939578-12128ce2-a4e1-47fd-a2d9-b0925e051b81.jpg)
 
-* Favourite
-![Screenshot_20200515-180027 2](https://user-images.githubusercontent.com/55722619/82084661-792ac000-96a0-11ea-9ce9-1fc3232b1cfb.png)
-* Delete All 
-![Screenshot_20200515-180102 1](https://user-images.githubusercontent.com/55722619/82084744-a4adaa80-96a0-11ea-8fc3-5dcb6c9e94ca.png)
-* Details
-![Screenshot_20200515-180039 1](https://user-images.githubusercontent.com/55722619/82084824-cd35a480-96a0-11ea-9327-5eae49ad2c4b.png)
-* Web View 
-![Screenshot_20200515-180051 1](https://user-images.githubusercontent.com/55722619/82084863-e3436500-96a0-11ea-8d31-338296ed6a3f.png)
+* Open Website
+![8_SimpleNewsApp](https://user-images.githubusercontent.com/62926316/145940177-40bf6b99-669d-40f0-a17b-6ead945ebda5.jpg)
 
+* WishList/Favourite
+![6_SimpleNewsApp](https://user-images.githubusercontent.com/62926316/145939736-f59e5989-f0b3-4def-bd3f-d617821671ac.jpg)
 
+* Fitur Share
+![7_SimpleNewsApp](https://user-images.githubusercontent.com/62926316/145939840-e6eea979-dd1d-4eb6-b18e-e47949f66b57.jpg)
 
+* Daftar wishlist/favourite
+![9_SimpleNewsApp](https://user-images.githubusercontent.com/62926316/145940468-81d39363-ba8d-4802-8f25-2e2e582879f5.jpg)
+
+* Menghapus (delete) wishlist/favourite
+![10_SimpleNewsApp](https://user-images.githubusercontent.com/62926316/145940799-b55923cd-92b7-4e6a-9ced-bb1f9a421ffb.jpg)
+![11_SimpleNewsApp](https://user-images.githubusercontent.com/62926316/145940911-f8757a91-2e48-4636-a1a4-8c16af5edce5.jpg)
 
